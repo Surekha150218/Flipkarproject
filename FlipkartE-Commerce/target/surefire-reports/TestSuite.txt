@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 77.463 sec <<< FAILURE!
+SelectApplePhone(PageObjectModel.HomePageTestCase)  Time elapsed: 21.155 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at PageObjectModel.FlipkartTestCase.Selectphone(FlipkartTestCase.java:81)
+	at PageObjectModel.HomePageTestCase.SelectApplePhone(HomePageTestCase.java:59)
+
